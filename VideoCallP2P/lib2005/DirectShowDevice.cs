@@ -699,7 +699,7 @@ namespace VideoCallP2P.lib2005
         long lastFrame = 0;
         public int BufferCB(double sampleTime, IntPtr pBuffer, int bufferLen)
         {
-            //Console.WriteLine("VampireEngg--> TimeDiff = " + (GetCurrentTimeStamp() - lastFrame));
+            Console.WriteLine("VampireEngg--> TimeDiff = " + (GetCurrentTimeStamp() - lastFrame));
             lastFrame = GetCurrentTimeStamp();
             iFpsControl++;
             //if (iFpsControl % 2 == 1) return 0;

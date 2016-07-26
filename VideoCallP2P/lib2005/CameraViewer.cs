@@ -34,11 +34,11 @@ namespace VideoCallP2P.lib2005
 
         public static readonly DependencyProperty CaptureHeightProperty =
             DependencyProperty.Register("CaptureHeight", typeof (int), typeof (CameraViewer),
-                new FrameworkPropertyMetadata(480, FrameworkPropertyMetadataOptions.None));
+                new FrameworkPropertyMetadata(288, FrameworkPropertyMetadataOptions.None));
 
         public static readonly DependencyProperty CaptureWidthProperty =
             DependencyProperty.Register("CaptureWidth", typeof (int), typeof (CameraViewer),
-                new FrameworkPropertyMetadata(640, FrameworkPropertyMetadataOptions.None));
+                new FrameworkPropertyMetadata(352, FrameworkPropertyMetadataOptions.None));
 
         public static readonly DependencyProperty CapturedImageProperty =
             DependencyProperty.Register("CapturedImage", typeof (ImageSource), typeof (CameraViewer),

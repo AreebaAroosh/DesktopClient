@@ -226,10 +226,11 @@ namespace VideoCallP2P
         {
             Console.WriteLine("Inside StartCall Button");
 
-            //string sIP = "192.168.8.29";
-            string sIP = "38.127.68.60";
+            string sIP = "192.168.8.30";
+
+            //string sIP = "38.127.68.60";
             //string sIP = "60.68.127.38";
-            int iFriendPort = 60002;
+            int iFriendPort = 60003;
             int iRet = 0;
             P2PWrapper p2pWrapper = P2PWrapper.GetInstance();
             iRet = p2pWrapper.InitializeLibraryR(100/*UserID*/);
@@ -239,7 +240,7 @@ namespace VideoCallP2P
             p2pWrapper.SetRelayServerInformationR(200, 1, sIP, iFriendPort);
             p2pWrapper.SetRelayServerInformationR(200, 2, sIP, iFriendPort);
             iRet = p2pWrapper.StartAudioCallR(200);
-            iRet = p2pWrapper.StartVideoCallR(200, 480  /*Height*/, 640/*Width*/);
+            iRet = p2pWrapper.StartVideoCallR(200, 288  /*Height*/, 352/*Width*/);
             System.Diagnostics.Debug.WriteLine("MediaEngineLib==> StartVideoCall, iRet = " + iRet);
             p2pWrapper.SetLoggingStateR(true, 5);
             p2pWrapper.LinkWithConnectivityLib(null);
@@ -265,7 +266,7 @@ namespace VideoCallP2P
             p2pWrapper.LinkWithConnectivityLib(null);
             //p2pWrapper.CheckDeviceCapabilityR(100, 640, 480, 352, 288);
 
-            p2pWrapper.CheckDeviceCapabilityR(100, 480, 640, 288, 352);
+            //p2pWrapper.CheckDeviceCapabilityR(100, 480, 640, 288, 352);
             
         }
     }
