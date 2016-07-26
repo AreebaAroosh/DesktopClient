@@ -1,0 +1,1362 @@
+﻿Build started 01-Mar-16 4:12:15 PM.
+     1>Project "E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\VideoPresenter\VideoPresenter.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1697,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.Xna.Framework". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D LIBRARY_EXPORT /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /showIncludes /analyze- /errorReport:prompt /clr:nostdlib D3D9RenderImpl.cpp Renderable.cpp D3D9Renderer.cpp
+         D3D9RenderImpl.cpp
+         Note: including file: c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\mscorlib.dll
+         Note: including file: c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\system.data.dll
+         Note: including file: c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\system.dll
+         Note: including file: c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\system.drawing.dll
+         Note: including file: c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\system.xml.dll
+         Note: including file: e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\StdAfx.h
+         Note: including file: e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\D3D9RenderImpl.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\d3d9.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winapifamily.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sal.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ConcurrencySal.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vadefs.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\objbase.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpc.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\excpt.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdarg.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_strict.h
+         Note: including file:          C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_undef.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\driverspecs.h
+         Note: including file:          c:\program files (x86)\windows kits\8.1\include\shared\sdv_driverspecs.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ctype.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\kernelspecs.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\guiddef.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\pshpack2.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\pshpack2.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\pshpack8.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apiset.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ktmtypes.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apisetcconv.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\processenv.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\fileapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\debugapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\utilapiset.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\handleapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\errhandlingapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\fibersapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\namedpipeapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\profileapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\heapapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\ioapiset.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\synchapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\interlockedapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\memoryapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\threadpoollegacyapiset.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\threadpoolapiset.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\bemapiset.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\jobapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\wow64apiset.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\libloaderapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\securitybaseapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\namespaceapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\systemtopologyapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\processtopologyapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\securityappcontainer.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\realtimeapiset.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\timezoneapi.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\tvout.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\datetimeapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\stringapiset.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincon.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\consoleapi.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winver.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\verrsrc.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winreg.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\reason.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnetwk.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wnnc.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\cderr.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\dde.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\ddeml.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\dlgs.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\lzexpand.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsystem.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\mciapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmiscapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmiscapi2.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\playsoundapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmeapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\timeapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\joystickapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\nb30.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpc.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcdce.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcdcep.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\rpcnsi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcnterr.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcasync.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\shellapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winperf.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\inaddr.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincrypt.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\bcrypt.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\ncrypt.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\dpapi.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winefs.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winscard.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.h
+         Note: including file:        c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\um\rpcnsip.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcsal.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        c:\program files (x86)\windows kits\8.1\include\shared\wtypesbase.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\guiddef.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       c:\program files (x86)\windows kits\8.1\include\shared\winsmcrd.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winspool.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\ole2.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\objbase.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\um\unknwnbase.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidlbase.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\guiddef.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\um\cguid.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\um\unknwn.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\urlmon.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\um\oleidl.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\um\servprov.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\um\msxml.h
+         Note: including file:          c:\program files (x86)\windows kits\8.1\include\um\oaidl.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\propidl.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\oleauto.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\commdlg.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\mcx.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\imm.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\ime_cmodes.h
+         Note: including file:   c:\program files (x86)\windows kits\8.1\include\shared\d3d9types.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\float.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtwrn.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:   c:\program files (x86)\windows kits\8.1\include\shared\d3d9caps.h
+         Note: including file:  e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Vertex.h
+         Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlbase.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atldef.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlrc.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\new.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\malloc.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdbg.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlcore.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tchar.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wtime.inl
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mbstring.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlchecked.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlexcept.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atltrace.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlconv.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stddef.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlalloc.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlsimpcoll.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlwinverapi.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlcomcli.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\olectl.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\ocidl.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\comcat.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atliface.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\oleacc.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\process.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\shlwapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\shtypes.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atltransactionmanager.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\ktmw32.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\statreg.h
+         Note: including file:  e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Macros.h
+         Note: including file:  e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\map
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdlib
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\yvals.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xkeycheck.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\use_ansi.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ymath.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cfloat
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\climits
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cmath
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtgmath.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtr1common
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cwchar
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstddef
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstddef
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\initializer_list
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\new
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\exception
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\eh.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\utility
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iosfwd
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdio
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstring
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\type_traits
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xrefwrap
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xatomic0.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\intrin.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\setjmp.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\setjmpex.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\immintrin.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wmmintrin.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\nmmintrin.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\smmintrin.h
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tmmintrin.h
+         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\pmmintrin.h
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\emmintrin.h
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmmintrin.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mmintrin.h
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ammintrin.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mm3dnow.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(60): error C2065: 'ID3DXLine' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(60): error C2923: 'ATL::CComPtr' : 'ID3DXLine' is not a valid template type argument for parameter 'T'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(61): error C2146: syntax error : missing ';' before identifier 'm_vectors'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(61): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(38): error C2512: 'ATL::CComPtr' : no appropriate default constructor available
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(39): error C3861: 'D3DXCreateLine': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(40): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(40): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(41): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(41): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(42): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(42): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(43): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(43): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(44): error C2039: 'SetWidth' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(54): error C2039: 'Begin' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(55): error C2039: 'Draw' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(55): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(56): error C2039: 'End' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(98): error C2065: 'ID3DXLine' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(98): error C2923: 'ATL::CComPtr' : 'ID3DXLine' is not a valid template type argument for parameter 'T'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(99): error C2146: syntax error : missing ';' before identifier 'm_vectors'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(99): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(69): error C2512: 'ATL::CComPtr' : no appropriate default constructor available
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(70): error C3861: 'D3DXCreateLine': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(71): error C2039: 'SetWidth' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(73): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(73): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(74): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(74): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(75): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(75): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(76): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(76): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(77): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(77): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(78): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(78): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(79): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(79): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(80): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(80): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(81): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(81): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(82): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(82): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(92): error C2039: 'Begin' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(93): error C2039: 'Draw' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(93): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(94): error C2039: 'End' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(137): error C2065: 'ID3DXLine' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(137): error C2923: 'ATL::CComPtr' : 'ID3DXLine' is not a valid template type argument for parameter 'T'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(138): error C2143: syntax error : missing ';' before '*'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(138): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(107): error C2512: 'ATL::CComPtr' : no appropriate default constructor available
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(108): error C3861: 'D3DXCreateLine': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(109): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(109): error C2061: syntax error : identifier 'D3DXVECTOR2'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(112): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(112): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(113): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(113): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(116): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(116): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(117): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(117): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(120): error C2039: 'SetWidth' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(125): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(125): error C2541: 'delete' : cannot delete objects that are not pointers
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(131): error C2039: 'Begin' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(132): error C2039: 'Draw' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(132): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(133): error C2039: 'End' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(159): error C2065: 'ID3DXFont' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(159): error C2923: 'ATL::CComPtr' : 'ID3DXFont' is not a valid template type argument for parameter 'T'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(147): error C2512: 'ATL::CComPtr' : no appropriate default constructor available
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(148): error C3861: 'D3DXCreateFont': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(155): error C2039: 'DrawTextW' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(170): error C2065: 'VERTEX' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(170): error C2146: syntax error : missing ';' before identifier 'vertexArray'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(170): error C2065: 'vertexArray' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(170): error C2059: syntax error : ']'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(171): error C2143: syntax error : missing ';' before '{'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(172): error C2143: syntax error : missing ';' before '}'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(172): error C3861: 'D3DXVECTOR3': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(172): error C3861: 'D3DXVECTOR2': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(172): error C2143: syntax error : missing ';' before ','
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(173): error C2143: syntax error : missing ';' before '{'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(173): error C2143: syntax error : missing ';' before '}'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(173): error C3861: 'D3DXVECTOR3': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(173): error C3861: 'D3DXVECTOR2': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(173): error C2143: syntax error : missing ';' before ','
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(174): error C2143: syntax error : missing ';' before '{'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(174): error C2143: syntax error : missing ';' before '}'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(174): error C3861: 'D3DXVECTOR3': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(174): error C3861: 'D3DXVECTOR2': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(174): error C2143: syntax error : missing ';' before ','
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(175): error C2143: syntax error : missing ';' before '{'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(175): error C2143: syntax error : missing ';' before '}'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(175): error C3861: 'D3DXVECTOR3': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(175): error C3861: 'D3DXVECTOR2': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(175): error C2143: syntax error : missing ';' before ','
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(179): error C2065: 'VERTEX' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(179): error C2070: 'unknown-type': illegal sizeof operand
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(179): fatal error C1003: error count exceeds 100; stopping compilation
+         Renderable.cpp
+         Note: including file: c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\mscorlib.dll
+         Note: including file: c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\system.data.dll
+         Note: including file: c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\system.dll
+         Note: including file: c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\system.drawing.dll
+         Note: including file: c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\system.xml.dll
+         Note: including file: e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\stdafx.h
+         Note: including file: e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\IRenderable.h
+         Note: including file:  C:\Program Files (x86)\Windows Kits\8.1\Include\shared\d3d9.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winapifamily.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sal.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ConcurrencySal.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vadefs.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\objbase.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpc.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\excpt.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdarg.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_strict.h
+         Note: including file:          C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_undef.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\driverspecs.h
+         Note: including file:          c:\program files (x86)\windows kits\8.1\include\shared\sdv_driverspecs.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ctype.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\kernelspecs.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\guiddef.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\pshpack2.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\pshpack2.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\pshpack8.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apiset.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ktmtypes.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apisetcconv.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\processenv.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\fileapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\debugapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\utilapiset.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\handleapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\errhandlingapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\fibersapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\namedpipeapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\profileapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\heapapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\ioapiset.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\synchapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\interlockedapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\memoryapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\threadpoollegacyapiset.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\threadpoolapiset.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\bemapiset.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\jobapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\wow64apiset.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\libloaderapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\securitybaseapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\namespaceapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\systemtopologyapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\processtopologyapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\securityappcontainer.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\realtimeapiset.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\timezoneapi.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\tvout.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\datetimeapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\stringapiset.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincon.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\consoleapi.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winver.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\verrsrc.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winreg.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\reason.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnetwk.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wnnc.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\cderr.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\dde.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\ddeml.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\dlgs.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\lzexpand.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsystem.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\mciapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmiscapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmiscapi2.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\playsoundapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmeapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\timeapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\joystickapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\nb30.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpc.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcdce.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcdcep.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\rpcnsi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcnterr.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcasync.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\shellapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winperf.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\inaddr.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincrypt.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\bcrypt.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\ncrypt.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\dpapi.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winefs.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winscard.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.h
+         Note: including file:        c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\um\rpcnsip.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcsal.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        c:\program files (x86)\windows kits\8.1\include\shared\wtypesbase.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\guiddef.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       c:\program files (x86)\windows kits\8.1\include\shared\winsmcrd.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winspool.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\ole2.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\objbase.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\um\unknwnbase.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidlbase.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\guiddef.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\um\cguid.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\um\unknwn.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\urlmon.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\um\oleidl.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\um\servprov.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\um\msxml.h
+         Note: including file:          c:\program files (x86)\windows kits\8.1\include\um\oaidl.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\propidl.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\oleauto.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\commdlg.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\mcx.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\imm.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\ime_cmodes.h
+         Note: including file:   c:\program files (x86)\windows kits\8.1\include\shared\d3d9types.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\float.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtwrn.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:   c:\program files (x86)\windows kits\8.1\include\shared\d3d9caps.h
+         Note: including file:  e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Vertex.h
+         Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlbase.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atldef.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlrc.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\new.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\malloc.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdbg.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlcore.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tchar.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wtime.inl
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mbstring.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlchecked.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlexcept.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atltrace.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlconv.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stddef.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlalloc.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlsimpcoll.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlwinverapi.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlcomcli.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\olectl.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\ocidl.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\comcat.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atliface.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\oleacc.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\process.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\shlwapi.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\shtypes.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atltransactionmanager.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\ktmw32.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\statreg.h
+         Note: including file:  e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Macros.h
+         Note: including file:  e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\map
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdlib
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\yvals.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xkeycheck.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\use_ansi.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ymath.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cfloat
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\climits
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cmath
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtgmath.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtr1common
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cwchar
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstddef
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstddef
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\initializer_list
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\new
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\exception
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\eh.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\utility
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iosfwd
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdio
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstring
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\type_traits
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xrefwrap
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xatomic0.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\intrin.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\setjmp.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\setjmpex.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\immintrin.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wmmintrin.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\nmmintrin.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\smmintrin.h
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tmmintrin.h
+         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\pmmintrin.h
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\emmintrin.h
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmmintrin.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mmintrin.h
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ammintrin.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mm3dnow.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(60): error C2065: 'ID3DXLine' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(60): error C2923: 'ATL::CComPtr' : 'ID3DXLine' is not a valid template type argument for parameter 'T'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(61): error C2146: syntax error : missing ';' before identifier 'm_vectors'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(61): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(38): error C2512: 'ATL::CComPtr' : no appropriate default constructor available
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(39): error C3861: 'D3DXCreateLine': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(40): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(40): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(41): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(41): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(42): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(42): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(43): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(43): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(44): error C2039: 'SetWidth' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(54): error C2039: 'Begin' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(55): error C2039: 'Draw' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(55): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(56): error C2039: 'End' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(98): error C2065: 'ID3DXLine' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(98): error C2923: 'ATL::CComPtr' : 'ID3DXLine' is not a valid template type argument for parameter 'T'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(99): error C2146: syntax error : missing ';' before identifier 'm_vectors'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(99): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(69): error C2512: 'ATL::CComPtr' : no appropriate default constructor available
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(70): error C3861: 'D3DXCreateLine': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(71): error C2039: 'SetWidth' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(73): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(73): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(74): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(74): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(75): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(75): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(76): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(76): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(77): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(77): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(78): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(78): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(79): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(79): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(80): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(80): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(81): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(81): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(82): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(82): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(92): error C2039: 'Begin' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(93): error C2039: 'Draw' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(93): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(94): error C2039: 'End' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(137): error C2065: 'ID3DXLine' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(137): error C2923: 'ATL::CComPtr' : 'ID3DXLine' is not a valid template type argument for parameter 'T'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(138): error C2143: syntax error : missing ';' before '*'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(138): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(107): error C2512: 'ATL::CComPtr' : no appropriate default constructor available
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(108): error C3861: 'D3DXCreateLine': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(109): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(109): error C2061: syntax error : identifier 'D3DXVECTOR2'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(112): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(112): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(113): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(113): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(116): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(116): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(117): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(117): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(120): error C2039: 'SetWidth' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(125): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(125): error C2541: 'delete' : cannot delete objects that are not pointers
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(131): error C2039: 'Begin' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(132): error C2039: 'Draw' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(132): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(133): error C2039: 'End' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(159): error C2065: 'ID3DXFont' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(159): error C2923: 'ATL::CComPtr' : 'ID3DXFont' is not a valid template type argument for parameter 'T'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(147): error C2512: 'ATL::CComPtr' : no appropriate default constructor available
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(148): error C3861: 'D3DXCreateFont': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(155): error C2039: 'DrawTextW' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(170): error C2065: 'VERTEX' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(170): error C2146: syntax error : missing ';' before identifier 'vertexArray'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(170): error C2065: 'vertexArray' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(170): error C2059: syntax error : ']'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(171): error C2143: syntax error : missing ';' before '{'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(172): error C2143: syntax error : missing ';' before '}'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(172): error C3861: 'D3DXVECTOR3': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(172): error C3861: 'D3DXVECTOR2': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(172): error C2143: syntax error : missing ';' before ','
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(173): error C2143: syntax error : missing ';' before '{'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(173): error C2143: syntax error : missing ';' before '}'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(173): error C3861: 'D3DXVECTOR3': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(173): error C3861: 'D3DXVECTOR2': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(173): error C2143: syntax error : missing ';' before ','
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(174): error C2143: syntax error : missing ';' before '{'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(174): error C2143: syntax error : missing ';' before '}'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(174): error C3861: 'D3DXVECTOR3': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(174): error C3861: 'D3DXVECTOR2': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(174): error C2143: syntax error : missing ';' before ','
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(175): error C2143: syntax error : missing ';' before '{'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(175): error C2143: syntax error : missing ';' before '}'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(175): error C3861: 'D3DXVECTOR3': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(175): error C3861: 'D3DXVECTOR2': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(175): error C2143: syntax error : missing ';' before ','
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(179): error C2065: 'VERTEX' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(179): error C2070: 'unknown-type': illegal sizeof operand
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(179): fatal error C1003: error count exceeds 100; stopping compilation
+         D3D9Renderer.cpp
+         Note: including file: c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\mscorlib.dll
+         Note: including file: c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\system.data.dll
+         Note: including file: c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\system.dll
+         Note: including file: c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\system.drawing.dll
+         Note: including file: c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.5\system.xml.dll
+         Note: including file: e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\stdafx.h
+         Note: including file: e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\D3D9Renderer.h
+         Note: including file:  e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\D3D9RenderImpl.h
+         Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\d3d9.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winapifamily.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sal.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ConcurrencySal.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vadefs.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\objbase.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpc.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\excpt.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdarg.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings.h
+         Note: including file:          C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_strict.h
+         Note: including file:           C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_undef.h
+         Note: including file:          C:\Program Files (x86)\Windows Kits\8.1\Include\shared\driverspecs.h
+         Note: including file:           c:\program files (x86)\windows kits\8.1\include\shared\sdv_driverspecs.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ctype.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:          C:\Program Files (x86)\Windows Kits\8.1\Include\shared\kernelspecs.h
+         Note: including file:          C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h
+         Note: including file:          C:\Program Files (x86)\Windows Kits\8.1\Include\shared\guiddef.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:          c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
+         Note: including file:          c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:          c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
+         Note: including file:          c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:          C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Note: including file:          C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:          c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
+         Note: including file:          c:\program files (x86)\windows kits\8.1\include\shared\pshpack2.h
+         Note: including file:          c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:          c:\program files (x86)\windows kits\8.1\include\shared\pshpack2.h
+         Note: including file:          C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Note: including file:          C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:          c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:          c:\program files (x86)\windows kits\8.1\include\shared\pshpack8.h
+         Note: including file:          c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:          c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Note: including file:          C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apiset.h
+         Note: including file:          C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ktmtypes.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apisetcconv.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\processenv.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\fileapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\debugapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\utilapiset.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\handleapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\errhandlingapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\fibersapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\namedpipeapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\profileapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\heapapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\ioapiset.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\synchapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\interlockedapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\memoryapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\threadpoollegacyapiset.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\threadpoolapiset.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\bemapiset.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\jobapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\wow64apiset.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\libloaderapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\securitybaseapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\namespaceapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\systemtopologyapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\processtopologyapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\securityappcontainer.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\realtimeapiset.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\timezoneapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\tvout.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\datetimeapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\stringapiset.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincon.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\consoleapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\winver.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\verrsrc.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\winreg.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\reason.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnetwk.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wnnc.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\cderr.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\dde.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\ddeml.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\dlgs.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\lzexpand.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsystem.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\mciapi.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmiscapi.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmiscapi2.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\playsoundapi.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmeapi.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\timeapi.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\joystickapi.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\nb30.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpc.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcdce.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcdcep.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\rpcnsi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcnterr.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcasync.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\shellapi.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\winperf.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\inaddr.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincrypt.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\bcrypt.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\ncrypt.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\dpapi.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\winefs.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\winscard.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h
+         Note: including file:          C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:          C:\Program Files (x86)\Windows Kits\8.1\Include\um\rpcnsip.h
+         Note: including file:          C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcsal.h
+         Note: including file:          C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:         c:\program files (x86)\windows kits\8.1\include\shared\wtypesbase.h
+         Note: including file:          c:\program files (x86)\windows kits\8.1\include\shared\guiddef.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        c:\program files (x86)\windows kits\8.1\include\shared\winsmcrd.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\winspool.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\ole2.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\objbase.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h
+         Note: including file:          C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:          C:\Program Files (x86)\Windows Kits\8.1\Include\um\unknwnbase.h
+         Note: including file:          C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidlbase.h
+         Note: including file:          C:\Program Files (x86)\Windows Kits\8.1\Include\shared\guiddef.h
+         Note: including file:          C:\Program Files (x86)\Windows Kits\8.1\Include\um\cguid.h
+         Note: including file:          C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h
+         Note: including file:          c:\program files (x86)\windows kits\8.1\include\um\unknwn.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\um\urlmon.h
+         Note: including file:          c:\program files (x86)\windows kits\8.1\include\um\oleidl.h
+         Note: including file:          c:\program files (x86)\windows kits\8.1\include\um\servprov.h
+         Note: including file:          c:\program files (x86)\windows kits\8.1\include\um\msxml.h
+         Note: including file:           c:\program files (x86)\windows kits\8.1\include\um\oaidl.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\um\propidl.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\oleauto.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:         C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\commdlg.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\mcx.h
+         Note: including file:       C:\Program Files (x86)\Windows Kits\8.1\Include\um\imm.h
+         Note: including file:        C:\Program Files (x86)\Windows Kits\8.1\Include\um\ime_cmodes.h
+         Note: including file:    c:\program files (x86)\windows kits\8.1\include\shared\d3d9types.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\float.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtwrn.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:    c:\program files (x86)\windows kits\8.1\include\shared\d3d9caps.h
+         Note: including file:   e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Vertex.h
+         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlbase.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atldef.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlrc.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\new.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\malloc.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdbg.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlcore.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tchar.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wtime.inl
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mbstring.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlchecked.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlexcept.h
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atltrace.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlconv.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stddef.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlalloc.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlsimpcoll.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlwinverapi.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atlcomcli.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\olectl.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\ocidl.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\comcat.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atliface.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\oleacc.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\process.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\shlwapi.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\shtypes.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Note: including file:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\atltransactionmanager.h
+         Note: including file:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\ktmw32.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\statreg.h
+         Note: including file:   e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Macros.h
+         Note: including file:   e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\map
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtree
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdlib
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\yvals.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xkeycheck.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\use_ansi.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ymath.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cfloat
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\climits
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cmath
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtgmath.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtr1common
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cwchar
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstddef
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstddef
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\initializer_list
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\new
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\exception
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\eh.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\utility
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iosfwd
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdio
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstring
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\type_traits
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xrefwrap
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xatomic0.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\intrin.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\setjmp.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\setjmpex.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\immintrin.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wmmintrin.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\nmmintrin.h
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\smmintrin.h
+         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tmmintrin.h
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\pmmintrin.h
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\emmintrin.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmmintrin.h
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mmintrin.h
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ammintrin.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mm3dnow.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tuple
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(60): error C2065: 'ID3DXLine' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(60): error C2923: 'ATL::CComPtr' : 'ID3DXLine' is not a valid template type argument for parameter 'T'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(61): error C2146: syntax error : missing ';' before identifier 'm_vectors'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(61): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(38): error C2512: 'ATL::CComPtr' : no appropriate default constructor available
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(39): error C3861: 'D3DXCreateLine': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(40): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(40): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(41): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(41): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(42): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(42): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(43): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(43): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(44): error C2039: 'SetWidth' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(54): error C2039: 'Begin' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(55): error C2039: 'Draw' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(55): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(56): error C2039: 'End' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(98): error C2065: 'ID3DXLine' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(98): error C2923: 'ATL::CComPtr' : 'ID3DXLine' is not a valid template type argument for parameter 'T'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(99): error C2146: syntax error : missing ';' before identifier 'm_vectors'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(99): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(69): error C2512: 'ATL::CComPtr' : no appropriate default constructor available
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(70): error C3861: 'D3DXCreateLine': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(71): error C2039: 'SetWidth' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(73): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(73): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(74): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(74): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(75): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(75): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(76): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(76): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(77): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(77): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(78): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(78): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(79): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(79): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(80): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(80): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(81): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(81): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(82): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(82): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(92): error C2039: 'Begin' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(93): error C2039: 'Draw' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(93): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(94): error C2039: 'End' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(137): error C2065: 'ID3DXLine' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(137): error C2923: 'ATL::CComPtr' : 'ID3DXLine' is not a valid template type argument for parameter 'T'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(138): error C2143: syntax error : missing ';' before '*'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(138): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(107): error C2512: 'ATL::CComPtr' : no appropriate default constructor available
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(108): error C3861: 'D3DXCreateLine': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(109): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(109): error C2061: syntax error : identifier 'D3DXVECTOR2'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(112): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(112): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(113): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(113): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(116): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(116): error C2228: left of '.x' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(117): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(117): error C2228: left of '.y' must have class/struct/union
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(120): error C2039: 'SetWidth' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(125): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(125): error C2541: 'delete' : cannot delete objects that are not pointers
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(131): error C2039: 'Begin' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(132): error C2039: 'Draw' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(132): error C2065: 'm_vectors' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(133): error C2039: 'End' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(159): error C2065: 'ID3DXFont' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(159): error C2923: 'ATL::CComPtr' : 'ID3DXFont' is not a valid template type argument for parameter 'T'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(147): error C2512: 'ATL::CComPtr' : no appropriate default constructor available
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(148): error C3861: 'D3DXCreateFont': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(155): error C2039: 'DrawTextW' : is not a member of 'ATL::_NoAddRefReleaseOnCComPtr<T>'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(170): error C2065: 'VERTEX' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(170): error C2146: syntax error : missing ';' before identifier 'vertexArray'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(170): error C2065: 'vertexArray' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(170): error C2059: syntax error : ']'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(171): error C2143: syntax error : missing ';' before '{'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(172): error C2143: syntax error : missing ';' before '}'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(172): error C3861: 'D3DXVECTOR3': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(172): error C3861: 'D3DXVECTOR2': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(172): error C2143: syntax error : missing ';' before ','
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(173): error C2143: syntax error : missing ';' before '{'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(173): error C2143: syntax error : missing ';' before '}'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(173): error C3861: 'D3DXVECTOR3': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(173): error C3861: 'D3DXVECTOR2': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(173): error C2143: syntax error : missing ';' before ','
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(174): error C2143: syntax error : missing ';' before '{'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(174): error C2143: syntax error : missing ';' before '}'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(174): error C3861: 'D3DXVECTOR3': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(174): error C3861: 'D3DXVECTOR2': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(174): error C2143: syntax error : missing ';' before ','
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(175): error C2143: syntax error : missing ';' before '{'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(175): error C2143: syntax error : missing ';' before '}'
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(175): error C3861: 'D3DXVECTOR3': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(175): error C3861: 'D3DXVECTOR2': identifier not found
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(175): error C2143: syntax error : missing ';' before ','
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(179): error C2065: 'VERTEX' : undeclared identifier
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(179): error C2070: 'unknown-type': illegal sizeof operand
+     1>e:\rajib\rajib\videocallp2p\videocallp2p\videopresenter\Overlay.h(179): fatal error C1003: error count exceeds 100; stopping compilation
+         Generating Code...
+     1>Done Building Project "E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\VideoPresenter\VideoPresenter.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:08.26

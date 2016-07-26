@@ -1,0 +1,152 @@
+F:\c#\VideoCallP2P\VideoCallP2P\bin\Debug\VideoCallP2P.exe
+F:\c#\VideoCallP2P\VideoCallP2P\bin\Debug\VideoCallP2P.pdb
+F:\c#\VideoCallP2P\VideoCallP2P\bin\Debug\AForge.Video.DirectShow.dll
+F:\c#\VideoCallP2P\VideoCallP2P\bin\Debug\AForge.Video.dll
+F:\c#\VideoCallP2P\VideoCallP2P\bin\Debug\log4net.dll
+F:\c#\VideoCallP2P\VideoCallP2P\obj\Debug\MainWindow.baml
+F:\c#\VideoCallP2P\VideoCallP2P\obj\Debug\MainWindow.g.cs
+F:\c#\VideoCallP2P\VideoCallP2P\obj\Debug\App.g.cs
+F:\c#\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P_MarkupCompile.cache
+F:\c#\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.g.resources
+F:\c#\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.Properties.Resources.resources
+F:\c#\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.csproj.GenerateResource.Cache
+F:\c#\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.exe
+F:\c#\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.pdb
+F:\c#\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.csprojResolveAssemblyReference.cache
+C:\Users\Ami\Desktop\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.exe
+C:\Users\Ami\Desktop\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.pdb
+C:\Users\Ami\Desktop\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\bin\Debug\VideoCallP2P.exe
+C:\Users\Ami\Desktop\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\bin\Debug\VideoCallP2P.pdb
+C:\Users\Ami\Desktop\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Ami\Desktop\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\bin\Debug\AForge.Video.dll
+C:\Users\Ami\Desktop\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\bin\Debug\log4net.dll
+C:\Users\Ami\Desktop\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.csprojResolveAssemblyReference.cache
+C:\Users\Ami\Desktop\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\obj\Debug\MainWindow.baml
+C:\Users\Ami\Desktop\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\obj\Debug\MainWindow.g.cs
+C:\Users\Ami\Desktop\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\obj\Debug\App.g.cs
+C:\Users\Ami\Desktop\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P_MarkupCompile.cache
+C:\Users\Ami\Desktop\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.g.resources
+C:\Users\Ami\Desktop\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.Properties.Resources.resources
+C:\Users\Ami\Desktop\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.csproj.GenerateResource.Cache
+E:\Rajib\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.exe
+E:\Rajib\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.pdb
+E:\Rajib\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\bin\Debug\VideoCallP2P.exe
+E:\Rajib\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\bin\Debug\VideoCallP2P.pdb
+E:\Rajib\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\bin\Debug\AForge.Video.DirectShow.dll
+E:\Rajib\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\bin\Debug\AForge.Video.dll
+E:\Rajib\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\bin\Debug\log4net.dll
+E:\Rajib\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\obj\Debug\MainWindow.baml
+E:\Rajib\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\obj\Debug\MainWindow.g.cs
+E:\Rajib\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\obj\Debug\App.g.cs
+E:\Rajib\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P_MarkupCompile.cache
+E:\Rajib\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.g.resources
+E:\Rajib\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.Properties.Resources.resources
+E:\Rajib\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.csproj.GenerateResource.Cache
+E:\Rajib\Rajib\Windows_Desktop_Client\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.csprojResolveAssemblyReference.cache
+F:\video demo\VideoCallP2P\VideoCallP2P\bin\Debug\VideoCallP2P.exe
+F:\video demo\VideoCallP2P\VideoCallP2P\bin\Debug\VideoCallP2P.pdb
+F:\video demo\VideoCallP2P\VideoCallP2P\bin\Debug\AForge.Video.DirectShow.dll
+F:\video demo\VideoCallP2P\VideoCallP2P\bin\Debug\AForge.Video.dll
+F:\video demo\VideoCallP2P\VideoCallP2P\bin\Debug\log4net.dll
+F:\video demo\VideoCallP2P\VideoCallP2P\obj\Debug\MainWindow.baml
+F:\video demo\VideoCallP2P\VideoCallP2P\obj\Debug\MainWindow.g.cs
+F:\video demo\VideoCallP2P\VideoCallP2P\obj\Debug\App.g.cs
+F:\video demo\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P_MarkupCompile.cache
+F:\video demo\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.g.resources
+F:\video demo\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.Properties.Resources.resources
+F:\video demo\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.csproj.GenerateResource.Cache
+F:\video demo\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.exe
+F:\video demo\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.pdb
+F:\video demo\VideoCallP2P\VideoCallP2P\obj\Debug\WNLib2005.baml
+F:\video demo\VideoCallP2P\VideoCallP2P\obj\Debug\WNLib2005.g.cs
+F:\video demo\VideoCallP2P\VideoCallP2P\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\video demo\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P_MarkupCompile.lref
+F:\video demo\VideoCallP2P\VideoCallP2P\bin\Debug\DirectShowLib-2005.dll
+E:\Windows\new\VideoCallP2P\VideoCallP2P\bin\Debug\VideoCallP2P.exe
+E:\Windows\new\VideoCallP2P\VideoCallP2P\bin\Debug\VideoCallP2P.pdb
+E:\Windows\new\VideoCallP2P\VideoCallP2P\bin\Debug\AForge.Video.DirectShow.dll
+E:\Windows\new\VideoCallP2P\VideoCallP2P\bin\Debug\AForge.Video.dll
+E:\Windows\new\VideoCallP2P\VideoCallP2P\bin\Debug\DirectShowLib-2005.dll
+E:\Windows\new\VideoCallP2P\VideoCallP2P\bin\Debug\log4net.dll
+E:\Windows\new\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.csprojResolveAssemblyReference.cache
+E:\Windows\new\VideoCallP2P\VideoCallP2P\obj\Debug\MainWindow.baml
+E:\Windows\new\VideoCallP2P\VideoCallP2P\obj\Debug\MainWindow.g.cs
+E:\Windows\new\VideoCallP2P\VideoCallP2P\obj\Debug\WNLib2005.g.cs
+E:\Windows\new\VideoCallP2P\VideoCallP2P\obj\Debug\App.g.cs
+E:\Windows\new\VideoCallP2P\VideoCallP2P\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Windows\new\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P_MarkupCompile.cache
+E:\Windows\new\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P_MarkupCompile.lref
+E:\Windows\new\VideoCallP2P\VideoCallP2P\obj\Debug\WNLib2005.baml
+E:\Windows\new\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.g.resources
+E:\Windows\new\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.Properties.Resources.resources
+E:\Windows\new\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.csproj.GenerateResource.Cache
+E:\Windows\new\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.exe
+E:\Windows\new\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.pdb
+C:\Users\Nayeem\Documents\Received Files\VideoCallP2P [2]\VideoCallP2P\VideoCallP2P\bin\Debug\VideoCallP2P.exe
+C:\Users\Nayeem\Documents\Received Files\VideoCallP2P [2]\VideoCallP2P\VideoCallP2P\bin\Debug\VideoCallP2P.pdb
+C:\Users\Nayeem\Documents\Received Files\VideoCallP2P [2]\VideoCallP2P\VideoCallP2P\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Nayeem\Documents\Received Files\VideoCallP2P [2]\VideoCallP2P\VideoCallP2P\bin\Debug\AForge.Video.dll
+C:\Users\Nayeem\Documents\Received Files\VideoCallP2P [2]\VideoCallP2P\VideoCallP2P\bin\Debug\DirectShowLib-2005.dll
+C:\Users\Nayeem\Documents\Received Files\VideoCallP2P [2]\VideoCallP2P\VideoCallP2P\bin\Debug\log4net.dll
+C:\Users\Nayeem\Documents\Received Files\VideoCallP2P [2]\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.csprojResolveAssemblyReference.cache
+C:\Users\Nayeem\Documents\Received Files\VideoCallP2P [2]\VideoCallP2P\VideoCallP2P\obj\Debug\MainWindow.baml
+C:\Users\Nayeem\Documents\Received Files\VideoCallP2P [2]\VideoCallP2P\VideoCallP2P\obj\Debug\MainWindow.g.cs
+C:\Users\Nayeem\Documents\Received Files\VideoCallP2P [2]\VideoCallP2P\VideoCallP2P\obj\Debug\WNLib2005.g.cs
+C:\Users\Nayeem\Documents\Received Files\VideoCallP2P [2]\VideoCallP2P\VideoCallP2P\obj\Debug\App.g.cs
+C:\Users\Nayeem\Documents\Received Files\VideoCallP2P [2]\VideoCallP2P\VideoCallP2P\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Nayeem\Documents\Received Files\VideoCallP2P [2]\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P_MarkupCompile.cache
+C:\Users\Nayeem\Documents\Received Files\VideoCallP2P [2]\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P_MarkupCompile.lref
+C:\Users\Nayeem\Documents\Received Files\VideoCallP2P [2]\VideoCallP2P\VideoCallP2P\obj\Debug\WNLib2005.baml
+C:\Users\Nayeem\Documents\Received Files\VideoCallP2P [2]\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.g.resources
+C:\Users\Nayeem\Documents\Received Files\VideoCallP2P [2]\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.Properties.Resources.resources
+C:\Users\Nayeem\Documents\Received Files\VideoCallP2P [2]\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.csproj.GenerateResource.Cache
+C:\Users\Nayeem\Documents\Received Files\VideoCallP2P [2]\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.exe
+C:\Users\Nayeem\Documents\Received Files\VideoCallP2P [2]\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.pdb
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\bin\Debug\VideoCallP2P.exe
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\bin\Debug\VideoCallP2P.pdb
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.csprojResolveAssemblyReference.cache
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\obj\Debug\MainWindow.baml
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\obj\Debug\MainWindow.g.cs
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\obj\Debug\WNLib2005.g.cs
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\obj\Debug\App.g.cs
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P_MarkupCompile.cache
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P_MarkupCompile.lref
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\obj\Debug\WNLib2005.baml
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.g.resources
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.Properties.Resources.resources
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.csproj.GenerateResource.Cache
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.exe
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.pdb
+E:\Windows\VideoCallP2P_may_7\VideoCallP2P\VideoCallP2P\bin\Debug\VideoCallP2P.exe
+E:\Windows\VideoCallP2P_may_7\VideoCallP2P\VideoCallP2P\bin\Debug\VideoCallP2P.pdb
+E:\Windows\VideoCallP2P_may_7\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.csprojResolveAssemblyReference.cache
+E:\Windows\VideoCallP2P_may_7\VideoCallP2P\VideoCallP2P\obj\Debug\MainWindow.baml
+E:\Windows\VideoCallP2P_may_7\VideoCallP2P\VideoCallP2P\obj\Debug\MainWindow.g.cs
+E:\Windows\VideoCallP2P_may_7\VideoCallP2P\VideoCallP2P\obj\Debug\WNLib2005.g.cs
+E:\Windows\VideoCallP2P_may_7\VideoCallP2P\VideoCallP2P\obj\Debug\App.g.cs
+E:\Windows\VideoCallP2P_may_7\VideoCallP2P\VideoCallP2P\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Windows\VideoCallP2P_may_7\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P_MarkupCompile.cache
+E:\Windows\VideoCallP2P_may_7\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P_MarkupCompile.lref
+E:\Windows\VideoCallP2P_may_7\VideoCallP2P\VideoCallP2P\obj\Debug\WNLib2005.baml
+E:\Windows\VideoCallP2P_may_7\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.g.resources
+E:\Windows\VideoCallP2P_may_7\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.Properties.Resources.resources
+E:\Windows\VideoCallP2P_may_7\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.csproj.GenerateResource.Cache
+E:\Windows\VideoCallP2P_may_7\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.exe
+E:\Windows\VideoCallP2P_may_7\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.pdb
+F:\OfficialGitCode\DesktopTestClient\VideoCallP2P\VideoCallP2P\bin\Debug\VideoCallP2P.exe
+F:\OfficialGitCode\DesktopTestClient\VideoCallP2P\VideoCallP2P\bin\Debug\VideoCallP2P.pdb
+F:\OfficialGitCode\DesktopTestClient\VideoCallP2P\VideoCallP2P\obj\Debug\MainWindow.baml
+F:\OfficialGitCode\DesktopTestClient\VideoCallP2P\VideoCallP2P\obj\Debug\MainWindow.g.cs
+F:\OfficialGitCode\DesktopTestClient\VideoCallP2P\VideoCallP2P\obj\Debug\WNLib2005.g.cs
+F:\OfficialGitCode\DesktopTestClient\VideoCallP2P\VideoCallP2P\obj\Debug\App.g.cs
+F:\OfficialGitCode\DesktopTestClient\VideoCallP2P\VideoCallP2P\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\OfficialGitCode\DesktopTestClient\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P_MarkupCompile.cache
+F:\OfficialGitCode\DesktopTestClient\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P_MarkupCompile.lref
+F:\OfficialGitCode\DesktopTestClient\VideoCallP2P\VideoCallP2P\obj\Debug\WNLib2005.baml
+F:\OfficialGitCode\DesktopTestClient\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.g.resources
+F:\OfficialGitCode\DesktopTestClient\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.Properties.Resources.resources
+F:\OfficialGitCode\DesktopTestClient\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.csproj.GenerateResource.Cache
+F:\OfficialGitCode\DesktopTestClient\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.exe
+F:\OfficialGitCode\DesktopTestClient\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.pdb
+F:\OfficialGitCode\DesktopTestClient\VideoCallP2P\VideoCallP2P\obj\Debug\VideoCallP2P.csprojResolveAssemblyReference.cache

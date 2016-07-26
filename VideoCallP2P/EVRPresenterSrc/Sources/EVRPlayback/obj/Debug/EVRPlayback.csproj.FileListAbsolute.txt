@@ -1,0 +1,9 @@
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\EVRPresenterSrc\Output\bin\Debug\EVRPlayback.exe.config
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\EVRPresenterSrc\Output\bin\Debug\EVRPlayback.exe
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\EVRPresenterSrc\Output\bin\Debug\EVRPlayback.pdb
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\EVRPresenterSrc\Sources\EVRPlayback\obj\Debug\EVRPlayback.csprojResolveAssemblyReference.cache
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\EVRPresenterSrc\Sources\EVRPlayback\obj\Debug\EVRPlayback.MainForm.resources
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\EVRPresenterSrc\Sources\EVRPlayback\obj\Debug\EVRPlayback.Properties.Resources.resources
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\EVRPresenterSrc\Sources\EVRPlayback\obj\Debug\EVRPlayback.csproj.GenerateResource.Cache
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\EVRPresenterSrc\Sources\EVRPlayback\obj\Debug\EVRPlayback.exe
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\EVRPresenterSrc\Sources\EVRPlayback\obj\Debug\EVRPlayback.pdb

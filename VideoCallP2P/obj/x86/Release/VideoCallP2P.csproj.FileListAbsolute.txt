@@ -1,0 +1,7 @@
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\obj\x86\Release\MainWindow.baml
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\obj\x86\Release\MainWindow.g.cs
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\obj\x86\Release\WNLib2005.g.cs
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\obj\x86\Release\App.g.cs
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\obj\x86\Release\VideoCallP2P_MarkupCompile.cache
+E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\obj\x86\Release\VideoCallP2P_MarkupCompile.lref
