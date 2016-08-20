@@ -135,7 +135,7 @@ namespace VideoCallP2P.Libconnector
         int iTemp = 0;
         int iTempAudio = 0;
         byte[] managedArray = new byte[640*480*3];
-        byte[] managedArrayAudio = new byte[160];
+        short[] managedArrayAudio = new short[2000];
 
         public static void AppendAllBytes(string path, byte[] bytes)
         {
@@ -190,20 +190,30 @@ namespace VideoCallP2P.Libconnector
 
         void AudioFromLibrary(long FriendId, IntPtr data, int in_size)
         {
-            Marshal.Copy(data, managedArrayAudio, 0, 160);
-            if (iTempAudio == 0)
-            {
-                System.IO.File.WriteAllText("log3.txt", "Inside AudioFromLibrary, iLen = " + in_size + "\r\n");
+            Marshal.Copy(data, managedArrayAudio, 0, in_size);
 
-                System.IO.File.WriteAllBytes("incoming.pcm", managedArrayAudio);
-
-                iTempAudio++;
-            }
-            else
+            byte[] newAudio = new byte[in_size * 2];
+            for (int i = 0; i < in_size;i++)
             {
-                System.IO.File.AppendAllText("log3.txt", "Inside AudioFromLibrary, iLen = " + in_size + "\r\n");
-                AppendAllBytes("incoming.pcm", managedArrayAudio);
+                newAudio[i*2]       = (byte)(managedArrayAudio[i] >> 8);
+                newAudio[i * 2 + 1] = (byte)(managedArrayAudio[i] & 0xFF);
             }
+
+
+
+                if (iTempAudio == 0)
+                {
+                    System.IO.File.WriteAllText("log3.txt", "Inside AudioFromLibrary, iLen = " + in_size + "\r\n");
+
+                    System.IO.File.WriteAllBytes("incoming.pcm", newAudio);
+
+                    iTempAudio++;
+                }
+                else
+                {
+                    System.IO.File.AppendAllText("log3.txt", "Inside AudioFromLibrary, iLen = " + in_size + "Managed array size = " + managedArray.Length + "\r\n");
+                    AppendAllBytes("incoming.pcm", newAudio);
+                }
         }
 
         void VideoNotification(long FriendId, int eventType)
