@@ -21,6 +21,48 @@ namespace VideoCallP2P
     public partial class WNLib2005 : Window
     {
         #region "Class By VideoTeam"
+        public class AudioSender
+        {
+            public byte[] AudioData;
+            public int AudioDataIndx = 0;
+            public void StartSendingAudio()
+            {
+                while(true)
+                {
+                    const int iFixedLengthAudio = 1920;
+                    short[] dataToSendAudio = new short[iFixedLengthAudio + 5];
+                    ushort[] dataToSendAudio2 = new ushort[iFixedLengthAudio + 5];
+
+                    if (AudioDataIndx == 0)
+                        System.Console.WriteLine("C# audio data for the 1st frame");
+                    for (int i = 0; i < iFixedLengthAudio / 2; i++)
+                    {
+                        if((AudioDataIndx+2*i +1) >= iFixedLengthAudio/2)
+                        {
+                            break;
+                        }
+                        ushort left = (ushort)AudioData[AudioDataIndx + 2 * i + 1];
+                        ushort right = (ushort)AudioData[AudioDataIndx + 2 * i];
+                        dataToSendAudio[i] = (short)(right | (left << 8));
+                        dataToSendAudio2[i] = (ushort)(right | (left << 8));
+
+                        if (AudioDataIndx == 0 && i < 30)
+                        {
+                            System.Console.Write(" " + (uint)dataToSendAudio2[i]);
+                        }
+                    }
+
+                    AudioDataIndx += iFixedLengthAudio;
+                    if (AudioDataIndx >= AudioData.Length)
+                        AudioDataIndx = 0;
+
+                    int iRet = P2PWrapper.SendAudioData(200, dataToSendAudio, iFixedLengthAudio / 2);
+                    System.IO.File.AppendAllText("log.txt", "P2PWrapper.SendAudioData = " + iRet + "\r\n");
+                    Thread.Sleep(100);
+
+                }
+            }
+        }
         public class Alpha
         {
 
@@ -226,11 +268,11 @@ namespace VideoCallP2P
         {
             Console.WriteLine("Inside StartCall Button");
 
-            string sIP = "192.168.8.30";
+            string sIP = "192.168.57.121";
 
             //string sIP = "38.127.68.60";
             //string sIP = "60.68.127.38";
-            int iFriendPort = 60003;
+            int iFriendPort = 60002;
             int iRet = 0;
             P2PWrapper p2pWrapper = P2PWrapper.GetInstance();
             iRet = p2pWrapper.InitializeLibraryR(100/*UserID*/);
@@ -244,6 +286,16 @@ namespace VideoCallP2P
             System.Diagnostics.Debug.WriteLine("MediaEngineLib==> StartVideoCall, iRet = " + iRet);
             p2pWrapper.SetLoggingStateR(true, 5);
             p2pWrapper.LinkWithConnectivityLib(null);
+
+            AudioSender oAlpha = new AudioSender();
+            oAlpha.AudioData = System.IO.File.ReadAllBytes(@"AudioSending(1).pcm");
+            //oAlpha.bStartSending = true;
+
+            Thread oThread = new Thread(new ThreadStart(oAlpha.StartSendingAudio));
+            oThread.Start();
+
+
+
 
         }
 
