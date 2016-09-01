@@ -318,7 +318,7 @@ namespace VideoCallP2P
             p2pWrapper.LinkWithConnectivityLib(null);
             //p2pWrapper.CheckDeviceCapabilityR(100, 640, 480, 352, 288);
 
-            //p2pWrapper.CheckDeviceCapabilityR(100, 480, 640, 288, 352);
+            p2pWrapper.CheckDeviceCapabilityR(100, 480, 640, 288, 352);
             
         }
     }
