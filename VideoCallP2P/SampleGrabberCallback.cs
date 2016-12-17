@@ -20,7 +20,7 @@ namespace VideoCallP2P
                 byte[] buf = new byte[BufferLen];
                 Marshal.Copy(pBuffer, buf, 0, BufferLen);
                //  Console.WriteLine("******************+" + buf.Length);
-                MainWindow.mainWindow.ChangeImage(buf);
+                //MainWindow.mainWindow.ChangeImage(buf);
             }
             return 0;
         }
