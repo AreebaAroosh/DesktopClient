@@ -1598,7 +1598,7 @@ namespace VideoCallP2P.Recorder
                    //  Console.WriteLine("Length==>" + bmpBytes.Length);
                     //    CallHelperMethods.AddAndStartThreadToProcessVideoImage(bmpBytes);
                     ms.Close();
-                    MainWindow.mainWindow.ChangeImage(bmpBytes);
+                    //MainWindow.mainWindow.ChangeImage(bmpBytes);
                     bmpBytes = null;
                 }
                 catch (Exception ex)
