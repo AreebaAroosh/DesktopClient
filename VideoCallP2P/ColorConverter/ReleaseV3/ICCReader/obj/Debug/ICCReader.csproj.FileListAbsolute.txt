@@ -1,6 +1,0 @@
-E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\ColorConverter\ReleaseV3\ICCReader\bin\Debug\License.txt
-E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\ColorConverter\ReleaseV3\ICCReader\bin\Debug\ICCReader.dll
-E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\ColorConverter\ReleaseV3\ICCReader\bin\Debug\ICCReader.pdb
-E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\ColorConverter\ReleaseV3\ICCReader\obj\Debug\ICCReader.csprojResolveAssemblyReference.cache
-E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\ColorConverter\ReleaseV3\ICCReader\obj\Debug\ICCReader.dll
-E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\ColorConverter\ReleaseV3\ICCReader\obj\Debug\ICCReader.pdb

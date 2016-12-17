@@ -1,8 +1,0 @@
-E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\ColorConverter\ReleaseV3\ColorManagment\bin\Debug\License.txt
-E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\ColorConverter\ReleaseV3\ColorManagment\bin\Debug\ColorManagment.dll
-E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\ColorConverter\ReleaseV3\ColorManagment\bin\Debug\ColorManagment.pdb
-E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\ColorConverter\ReleaseV3\ColorManagment\bin\Debug\ICCReader.dll
-E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\ColorConverter\ReleaseV3\ColorManagment\bin\Debug\ICCReader.pdb
-E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\ColorConverter\ReleaseV3\ColorManagment\obj\Debug\ColorManagment.csprojResolveAssemblyReference.cache
-E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\ColorConverter\ReleaseV3\ColorManagment\obj\Debug\ColorManagment.dll
-E:\Rajib\Rajib\VideoCallP2P\VideoCallP2P\ColorConverter\ReleaseV3\ColorManagment\obj\Debug\ColorManagment.pdb
