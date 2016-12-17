@@ -88,14 +88,14 @@ namespace VideoCallP2P.Libconnector
 
 
         [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
-        public delegate void Delegate_SetNotifyClientWithVideoDataCallback(long FriendId, IntPtr frame, int iLen, int iHeight, int iWidth, int cameraOrient);
+        public delegate void Delegate_SetNotifyClientWithVideoDataCallback(long FriendId, int eventType, IntPtr frame, int iLen, int iHeight, int iWidth, int cameraOrient);
         Delegate_SetNotifyClientWithVideoDataCallback Obj_SetNotifyClientWithVideoDataCallback;
         [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
         public static extern void SetNotifyClientWithVideoDataCallback([MarshalAs(UnmanagedType.FunctionPtr)] Delegate_SetNotifyClientWithVideoDataCallback ii);
 
 
         [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
-        public delegate void Delegate_SetNotifyClientWithAudioDataCallback(long FriendId, IntPtr data, int in_size);
+        public delegate void Delegate_SetNotifyClientWithAudioDataCallback(long FriendId, int eventType, IntPtr data, int in_size);
         Delegate_SetNotifyClientWithAudioDataCallback Obj_SetNotifyClientWithAudioDataCallback;
         [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
         public static extern void SetNotifyClientWithAudioDataCallback([MarshalAs(UnmanagedType.FunctionPtr)] Delegate_SetNotifyClientWithAudioDataCallback ii);
@@ -157,7 +157,7 @@ namespace VideoCallP2P.Libconnector
 
         long lastFrameFromLibrary = 0;
 
-        void FramesFromLibrary(long FriendId, IntPtr frame, int iLen, int iHeight, int iWidth, int cameraOrient)
+        void FramesFromLibrary(long FriendId, int eventType, IntPtr frame, int iLen, int iHeight, int iWidth, int cameraOrient)
         {
             Console.WriteLine("FramesFromLibrary: " + cameraOrient);
 
@@ -188,7 +188,7 @@ namespace VideoCallP2P.Libconnector
 
         }
 
-        void AudioFromLibrary(long FriendId, IntPtr data, int in_size)
+        void AudioFromLibrary(long FriendId, int eventType,  IntPtr data, int in_size)
         {
             Marshal.Copy(data, managedArrayAudio, 0, in_size);
 
