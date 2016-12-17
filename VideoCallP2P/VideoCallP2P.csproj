@@ -123,35 +123,6 @@
     <Compile Include="Libconnector\VoiceMessageDTO.cs" />
     <Compile Include="Libconnector\VoicePacketGenerator.cs" />
     <Compile Include="ModelUtility.cs" />
-    <Compile Include="Recorder\DirectShowNET\DsBugWO.cs" />
-    <Compile Include="Recorder\DirectShowNET\DsControl.cs" />
-    <Compile Include="Recorder\DirectShowNET\DsCore.cs" />
-    <Compile Include="Recorder\DirectShowNET\DsDevice.cs" />
-    <Compile Include="Recorder\DirectShowNET\DsExtend.cs" />
-    <Compile Include="Recorder\DirectShowNET\DsUtils.cs" />
-    <Compile Include="Recorder\DirectShowNET\DsUuids.cs" />
-    <Compile Include="Recorder\DirectShowNET\QEdit.cs" />
-    <Compile Include="Recorder\DirectX.Capture\AudioCapabilities.cs" />
-    <Compile Include="Recorder\DirectX.Capture\AudioSource.cs" />
-    <Compile Include="Recorder\DirectX.Capture\Capture2.cs" />
-    <Compile Include="Recorder\DirectX.Capture\CrossbarSource.cs" />
-    <Compile Include="Recorder\DirectX.Capture\DeviceInUseException.cs" />
-    <Compile Include="Recorder\DirectX.Capture\DirectShowPropertyPage.cs" />
-    <Compile Include="Recorder\DirectX.Capture\Filter.cs" />
-    <Compile Include="Recorder\DirectX.Capture\FilterCollection.cs" />
-    <Compile Include="Recorder\DirectX.Capture\Filters.cs" />
-    <Compile Include="Recorder\DirectX.Capture\PropertyPage.cs" />
-    <Compile Include="Recorder\DirectX.Capture\PropertyPageCollection.cs" />
-    <Compile Include="Recorder\DirectX.Capture\Source.cs" />
-    <Compile Include="Recorder\DirectX.Capture\SourceCollection.cs" />
-    <Compile Include="Recorder\DirectX.Capture\Tuner.cs" />
-    <Compile Include="Recorder\DirectX.Capture\VfwCompressorPropertyPage.cs" />
-    <Compile Include="Recorder\DirectX.Capture\VideoCapabilities.cs" />
-    <Compile Include="SampleGrabberCallback.cs" />
-    <Compile Include="StartVideoCapture.cs" />
-    <Compile Include="WebcamVedioPreview.cs">
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="WNLib2005.xaml.cs">
       <DependentUpon>WNLib2005.xaml</DependentUpon>
     </Compile>
