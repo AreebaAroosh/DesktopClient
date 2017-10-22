@@ -198,12 +198,6 @@ namespace VideoCallP2P
         };
         #endregion "Class By VideoTeam"
 
-
-        long loginId = 123L;
-        long friendID = 321L;
-        string sessionID = "session";
-        string ip = "192.168.1.38";
-        int port = 1250;
         public DesktopClientGUI()
         {
             InitializeComponent();
@@ -249,15 +243,11 @@ namespace VideoCallP2P
         }
         private void Button_CreateS(object sender, RoutedEventArgs e)
         {
-            SessionStatus sessionStatus = P2PWrapper.ipv_CreateSession(friendID, ConfigFile.MediaType.IPV_MEDIA_AUDIO, ip, port);
-            if (sessionStatus == SessionStatus.SESSION_CREATE_SUCCESSFULLY)
-            {
-                System.Diagnostics.Debug.WriteLine("Session created Successfully");
-            }
+
         }
         private void Button_Disconnect(object sender, RoutedEventArgs e)
         {
-            P2PWrapper.ipv_CloseSession(friendID, ConfigFile.MediaType.IPV_MEDIA_AUDIO);
+            //P2PWrapper.ipv_CloseSession(friendID, ConfigFile.MediaType.IPV_MEDIA_AUDIO);
         }
         private void Button_Destroy(object sender, RoutedEventArgs e)
         {
@@ -268,23 +258,32 @@ namespace VideoCallP2P
         {
             Console.WriteLine("Inside StartCall Button");
 
-            string sIP = "192.168.57.121";
+            Controller oController = new Controller();
+            Thread oControllerThread = new Thread(new ThreadStart(oController.SignalingMessageProcessor));
+            oControllerThread.Start();
 
-            //string sIP = "38.127.68.60";
-            //string sIP = "60.68.127.38";
-            int iFriendPort = 60002;
+
+
+            string sIP = "127.0.0.1";
             int iRet = 0;
             P2PWrapper p2pWrapper = P2PWrapper.GetInstance();
             iRet = p2pWrapper.InitializeLibraryR(100/*UserID*/);
             System.Console.WriteLine("MediaEngineLib==> InitializeLibrary, iRet = " + iRet);
-            p2pWrapper.CreateSessionR(200/*FriendID*/, 1/*Audio*/, sIP, iFriendPort);
-            p2pWrapper.CreateSessionR(200, 2/*Video*/, sIP, iFriendPort);
-            p2pWrapper.SetRelayServerInformationR(200, 1, sIP, iFriendPort);
-            p2pWrapper.SetRelayServerInformationR(200, 2, sIP, iFriendPort);
-            iRet = p2pWrapper.StartAudioCallR(200);
-            iRet = p2pWrapper.StartVideoCallR(200, 288  /*Height*/, 352/*Width*/);
-            System.Diagnostics.Debug.WriteLine("MediaEngineLib==> StartVideoCall, iRet = " + iRet);
-            p2pWrapper.SetLoggingStateR(true, 5);
+
+            p2pWrapper.InitializeMediaConnectivityR(sIP /*Server IP*/, 6060 /* Server Signaling Port*/, 1);
+            p2pWrapper.ProcessCommandR("register");
+
+
+
+            //p2pWrapper.CreateSessionR(200/*FriendID*/, 1/*Audio*/, sIP, iFriendPort);
+            //p2pWrapper.CreateSessionR(200, 2/*Video*/, sIP, iFriendPort);
+            //p2pWrapper.SetRelayServerInformationR(200, 1, sIP, iFriendPort);
+            //p2pWrapper.SetRelayServerInformationR(200, 2, sIP, iFriendPort);
+
+            //iRet = p2pWrapper.StartAudioCallR(200);
+            //iRet = p2pWrapper.StartVideoCallR(200, 288  /*Height*/, 352/*Width*/);
+            //System.Diagnostics.Debug.WriteLine("MediaEngineLib==> StartVideoCall, iRet = " + iRet);
+            //p2pWrapper.SetLoggingStateR(true, 5);
             p2pWrapper.LinkWithConnectivityLib(null);
 
             AudioSender oAlpha = new AudioSender();
@@ -294,19 +293,16 @@ namespace VideoCallP2P
             Thread oThread = new Thread(new ThreadStart(oAlpha.StartSendingAudio));
             oThread.Start();
 
-
-
-
         }
 
         private void Stop_Click_1(object sender, RoutedEventArgs e)
         {
             Console.WriteLine("Inside EndCall Button");
             P2PWrapper p2pWrapper = P2PWrapper.GetInstance();
-            p2pWrapper.StopAudioCallR(200);
-            p2pWrapper.StopAudioCallR(200);
-            p2pWrapper.CloseSessionR(200, 1);
-            p2pWrapper.CloseSessionR(200, 2);
+            //p2pWrapper.StopAudioCallR(200);
+            //p2pWrapper.StopAudioCallR(200);
+            //p2pWrapper.CloseSessionR(200, 1);
+            //p2pWrapper.CloseSessionR(200, 2);
 
         }
 

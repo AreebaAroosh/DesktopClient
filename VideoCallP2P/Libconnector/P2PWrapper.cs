@@ -7,15 +7,23 @@ using System.IO;
 
 namespace VideoCallP2P.Libconnector
 {
+    public class SignalModel
+    {
+        public int iLen;
+        public byte[] data;
+
+        public SignalModel(byte[] d, int len)
+        {
+            data = d;
+            iLen = len;
+        }
+    }
     public class P2PWrapper : OnReceiveListner
     {
-         
-        const string path = "IPVConnectivity.dll";
-
-
         const string RingIDSDK_Path = "RingIDSDK_Desktop.dll";
 
         public static Queue<byte[]> framesQueue = new Queue<byte[]>();
+        public static Queue<SignalModel> signalDataQueue = new Queue<SignalModel>();
         public static int iRenderWidth, iRenderHeight;
 
 
@@ -27,42 +35,10 @@ namespace VideoCallP2P.Libconnector
 
         [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
         public static extern int InitializeLibrary(long username);
-
-
-
-
         
         [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
-        public static extern int ipv_SetAuthenticationServer(string cAuthServerIP, int iAuthServerPort, string cAppSessionId);
-        [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
-        public static extern SessionStatus ipv_CreateSession(long lFriendID, int mediaType, string cRelayServerIP, int iRelayServerPort);
-        [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
-        public static extern void ipv_SetRelayServerInformation(long lFriendID, int mediaType, string cRelayServerIP, int iRelayServerPort);
-        [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
-        public static extern void ipv_StartP2PCall(long lFriendID, int mediaType, int bCaller);
-        [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
-        public static extern bool ipv_IsConnectionTypeHostToHost(long lFriendID, int mediaType);
-        [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
-        public static extern int ipv_Send(long lFriendID, int mediaType, byte[] data, int iLen);
-        [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
-        public static extern int ipv_SendTo(long lFriendID, int mediaType, byte[] data, int iLen, string cDestinationIP, int iDestinationPort);
-        [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
-        public static extern int ipv_Recv(long lFriendID, int mediaType, byte[] data, int iLen);
-        [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
-        public static extern string ipv_GetSelectedIPAddress(long lFriendID, int mediaType);
-        [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
-        public static extern int ipv_GetSelectedPort(long lFriendID, int mediaType);
-        [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
-        public static extern int ipv_CloseSession(long lFriendID, int mediaType);
-        [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
         public static extern void ipv_Release();
-        [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
-        public static extern void ipv_InterfaceChanged();
-        [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
-        public static extern void ipv_SetLogFileLocation(string loc);
-
-        [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
-        public static extern int SetLoggingState(bool loggingState, int logLevel);
+        
 
         [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
         public static extern int SendVideoData(long lFriendID, byte[] in_data, int in_size, int orientation_type, int cameraOrient);
@@ -78,7 +54,13 @@ namespace VideoCallP2P.Libconnector
         [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
         public static extern int CheckDeviceCapability(long lFriendID, int iHeightHigh, int iWidthHigh, int iHeightLow, int iWidthLow);
 
+        [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
+        public static extern int InitializeMediaConnectivity(string sServerIP, int iPort, int iLogLevel);
 
+        [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
+        public static extern int  ProcessCommand(string sCommand);
+
+        //PORT int InitializeMediaConnectivity(const char* sServerIP, int iPort, int iLogLevel);
 
         [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
         public delegate void Delegate_SetNotifyClientWithPacketCallback(long FriendId, IntPtr packet, int iLen);
@@ -109,6 +91,17 @@ namespace VideoCallP2P.Libconnector
         public static extern void SetNotifyClientWithVideoNotificationCallback([MarshalAs(UnmanagedType.FunctionPtr)] Delegate_SetNotifyClientWithVideoNotificationCallback ii);
 
 
+        [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
+        public delegate void Delegate_SetNotifynotifyClientMethodWithSignalingDataCallback(IntPtr data, int iLen);
+        Delegate_SetNotifynotifyClientMethodWithSignalingDataCallback Obj_SetNotifynotifyClientMethodWithSignalingDataCallback;
+
+        [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
+        public static extern void SetNotifynotifyClientMethodWithSignalingDataCallback([MarshalAs(UnmanagedType.FunctionPtr)] Delegate_SetNotifynotifyClientMethodWithSignalingDataCallback ii);
+
+
+
+
+
         void notifyClientMethod(int eventType)
         {
         }
@@ -136,6 +129,7 @@ namespace VideoCallP2P.Libconnector
         int iTempAudio = 0;
         byte[] managedArray = new byte[640*480*3];
         short[] managedArrayAudio = new short[2000];
+        byte[] signalingDataArray = new byte[10000];
 
         public static void AppendAllBytes(string path, byte[] bytes)
         {
@@ -221,7 +215,12 @@ namespace VideoCallP2P.Libconnector
             Console.WriteLine("TheKing--> VideoNotification eventType = " + eventType);
         }
 
-
+        void SignalingDataFromLibrary(IntPtr data, int iLen)
+        {
+            Marshal.Copy(data, signalingDataArray, 0, iLen);
+            SignalModel sm = new SignalModel(signalingDataArray, iLen);
+            signalDataQueue.Enqueue(sm);
+        }
         //EXPORT void SetNotifyClientWithPacketCallback(void(*callBackFunctionPointer)(long long, unsigned char*, int));
 
         /**/
@@ -242,6 +241,9 @@ namespace VideoCallP2P.Libconnector
 
             Obj_SetNotifyClientWithVideoNotificationCallback = new Delegate_SetNotifyClientWithVideoNotificationCallback(VideoNotification);
             SetNotifyClientWithVideoNotificationCallback(Obj_SetNotifyClientWithVideoNotificationCallback);
+
+            Obj_SetNotifynotifyClientMethodWithSignalingDataCallback = new Delegate_SetNotifynotifyClientMethodWithSignalingDataCallback(SignalingDataFromLibrary);
+            SetNotifynotifyClientMethodWithSignalingDataCallback(Obj_SetNotifynotifyClientMethodWithSignalingDataCallback);
 
 
         }
@@ -275,14 +277,7 @@ namespace VideoCallP2P.Libconnector
             return InitializeLibrary(iUserName);
         }
 
-        public SessionStatus CreateSessionR(long lFriendID, int mediaType, string cRelayServerIP, int iRelayServerPort)
-        {
-            return ipv_CreateSession(lFriendID, mediaType, cRelayServerIP, iRelayServerPort);
-        }
-        public void SetRelayServerInformationR(long lFriendID, int mediaType, string cRelayServerIP, int iRelayServerPort)
-        {
-            ipv_SetRelayServerInformation(lFriendID, mediaType, cRelayServerIP, iRelayServerPort);
-        }
+
 
         public int StartAudioCallR(long lFriendId)
         {
@@ -293,10 +288,7 @@ namespace VideoCallP2P.Libconnector
         {
             return StartVideoCall(lFriendID, iHeight, iWidth); 
         }
-        public int SetLoggingStateR(bool loggingState, int logLevel)
-        {
-            return SetLoggingState(loggingState, logLevel);
-        }
+
         public int SendVideoDataR(long lFriendID, byte[] in_data, int in_size, int orientation_type, int cameraOrient)
         {
             return SendVideoData(lFriendID, in_data, in_size, orientation_type, cameraOrient);
@@ -316,9 +308,17 @@ namespace VideoCallP2P.Libconnector
             Console.WriteLine("Inside CheckDeviceCapabilityR function");
             return CheckDeviceCapability(lFriendID, iHeightHigh, iWidthHigh, iHeightLow, iWidthLow);
         }
-        public int CloseSessionR(long lFriendID, int mediaType)
+
+        
+
+        public int InitializeMediaConnectivityR(string sServerIP, int iPort, int iLogLevel)
         {
-            return ipv_CloseSession(lFriendID, mediaType);
+            return InitializeMediaConnectivity(sServerIP, iPort, iLogLevel);
+
+        }
+        public int ProcessCommandR(string sCommand)
+        {
+            return ProcessCommand(sCommand);
         }
 
         UiCommunicator uiCommunicator;
