@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -21,6 +22,9 @@ namespace VideoCallP2P
     public partial class DesktopClientGUI : Window
     {
         #region "Class By VideoTeam"
+
+        public ObservableCollection<string> MyOperationCmbContent { get; private set; }
+
         public class AudioSender
         {
             public byte[] AudioData;
@@ -200,8 +204,18 @@ namespace VideoCallP2P
 
         public DesktopClientGUI()
         {
+            MyOperationCmbContent = new ObservableCollection<string>
+            {
+                "Invite", 
+                "Publish",
+                "View",
+                "Terminate-All"
+            };
+
             InitializeComponent();
             this.DataContext = this;
+
+
         }
         private void Button_Connect(object sender, RoutedEventArgs e)
         {
@@ -257,6 +271,10 @@ namespace VideoCallP2P
         private void Start_Click(object sender, RoutedEventArgs e)
         {
             Console.WriteLine("Inside StartCall Button");
+
+            Console.WriteLine(operationCmb.SelectedItem);
+
+            useridLbl.Content = "UserID: [Trying to Find One....]";
 
             Controller oController = new Controller();
             Thread oControllerThread = new Thread(new ThreadStart(oController.SignalingMessageProcessor));

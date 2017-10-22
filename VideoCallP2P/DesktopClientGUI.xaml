@@ -43,9 +43,16 @@
             <TextBlock Text="Device: " />
             <Separator Margin="5"/>
         </StackPanel>
-        <Label Content="Select a Camera: " Grid.Column="2" HorizontalAlignment="Left" Margin="281,15,0,0" VerticalAlignment="Top" Width="184" FontSize="16pt" FontStyle="Oblique" Height="38"/>
-        <ComboBox ItemsSource="{Binding AvailableVideoModes, ElementName=cameraCapture, Mode=Default}" DisplayMemberPath="VideoModeString" SelectedItem="{Binding SelectedVieoMode, ElementName=cameraCapture, Mode=Default}" Margin="282,102,225,447" Grid.Column="2" Grid.Row="1" />
-        <ComboBox ItemsSource="{Binding Source={x:Static webcam:DirectShowDevice.AvailableDevices}}" DisplayMemberPath="Name" SelectedValuePath="Name" SelectedValue="{Binding SelectedDevice, ElementName=cameraCapture, Mode=Default}" Margin="281,45,225,507" Grid.Column="2" Grid.Row="1"/>
+        <ComboBox ItemsSource="{Binding AvailableVideoModes, ElementName=cameraCapture, Mode=Default}" DisplayMemberPath="VideoModeString" SelectedItem="{Binding SelectedVieoMode, ElementName=cameraCapture, Mode=Default}" Margin="363,102,144,447" Grid.Column="2" Grid.Row="1" />
+        <ComboBox ItemsSource="{Binding Source={x:Static webcam:DirectShowDevice.AvailableDevices}}" DisplayMemberPath="Name" SelectedValuePath="Name" SelectedValue="{Binding SelectedDevice, ElementName=cameraCapture, Mode=Default}" Margin="362,45,144,507" Grid.Column="2" Grid.Row="1"/>
+        <Label x:Name="useridLbl" Content="UserID : [ Not Logged In ]" Grid.Column="2" HorizontalAlignment="Left" Margin="259,372,0,0" Grid.Row="1" VerticalAlignment="Top" Width="265"/>
+        <Label x:Name="statusLbl" Content="Status: (No Updates)" Grid.Column="2" HorizontalAlignment="Left" Margin="259,410,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <ComboBox x:Name="operationCmb" ItemsSource="{Binding MyOperationCmbContent}" Grid.Column="2" HorizontalAlignment="Left" Margin="363,181,0,0" Grid.Row="1" VerticalAlignment="Top" Width="187" Height="40"/>
+        <Label Content="Select Camera:" Grid.Column="2" HorizontalAlignment="Left" Margin="215,52,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label Content="Select Resolution: " Grid.Column="2" HorizontalAlignment="Left" Margin="212,105,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label Content="Select Operation: " Grid.Column="2" HorizontalAlignment="Left" Margin="214,191,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <TextBox x:Name="targetuserIDBox" Grid.Column="2" HorizontalAlignment="Left" Height="31" Margin="363,259,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="187"/>
+        <Label Content="TargetUserID: " Grid.Column="2" HorizontalAlignment="Left" Margin="218,264,0,0" Grid.Row="1" VerticalAlignment="Top"/>
         <!--<webcam:CameraViewer PreviewDivider="1" Margin="5" x:Name="cameraCapture" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Grid.Row="1" Grid.Column="1"/>-->
         <!--<Image Source="{Binding Path=MyImageSource}" Width="320" Height="240" Grid.Row="1" Grid.Column="2"></Image>-->
         <!--<MediaElement Source="{Binding Path=MyImageSource}" Width="320" Height="240" Grid.Row="1" Grid.Column="2"></MediaElement>-->
