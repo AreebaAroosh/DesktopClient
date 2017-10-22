@@ -18,7 +18,7 @@ namespace VideoCallP2P
     /// <summary>
     /// Interaction logic for WNLib2005.xaml
     /// </summary>
-    public partial class WNLib2005 : Window
+    public partial class DesktopClientGUI : Window
     {
         #region "Class By VideoTeam"
         public class AudioSender
@@ -204,7 +204,7 @@ namespace VideoCallP2P
         string sessionID = "session";
         string ip = "192.168.1.38";
         int port = 1250;
-        public WNLib2005()
+        public DesktopClientGUI()
         {
             InitializeComponent();
             this.DataContext = this;

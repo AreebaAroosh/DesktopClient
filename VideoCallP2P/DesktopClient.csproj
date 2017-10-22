@@ -152,14 +152,14 @@
     <Compile Include="WebcamVedioPreview.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="WNLib2005.xaml.cs">
-      <DependentUpon>WNLib2005.xaml</DependentUpon>
+    <Compile Include="DesktopClientGUI.xaml.cs">
+      <DependentUpon>DesktopClientGUI.xaml</DependentUpon>
     </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="WNLib2005.xaml">
+    <Page Include="DesktopClientGUI.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
