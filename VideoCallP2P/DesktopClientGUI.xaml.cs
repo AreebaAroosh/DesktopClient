@@ -200,23 +200,38 @@ namespace VideoCallP2P
             }
 
         };
+
+        public void UpdateUserLabel(string sValue)
+        {
+            this.Dispatcher.Invoke((Action)(() =>
+            {//this refer to form in WPF application 
+                useridLbl.Content = sValue;
+            }));
+
+
+        }
         #endregion "Class By VideoTeam"
 
         public DesktopClientGUI()
         {
             MyOperationCmbContent = new ObservableCollection<string>
             {
-                "Invite", 
-                "Publish",
-                "View",
-                "Terminate-All"
+                "register",
+                "invite", 
+                "publish",
+                "view",
+                "terminate-all"
             };
 
             InitializeComponent();
             this.DataContext = this;
-
-
+            Instance = this;
         }
+
+
+        public static DesktopClientGUI Instance { get; private set; }
+
+
         private void Button_Connect(object sender, RoutedEventArgs e)
         {
             /*
@@ -271,46 +286,32 @@ namespace VideoCallP2P
         private void Start_Click(object sender, RoutedEventArgs e)
         {
             Console.WriteLine("Inside StartCall Button");
-
-            Console.WriteLine(operationCmb.SelectedItem);
-
             useridLbl.Content = "UserID: [Trying to Find One....]";
 
-            Controller oController = new Controller();
-            Thread oControllerThread = new Thread(new ThreadStart(oController.SignalingMessageProcessor));
+            //Controller oController = new Controller();
+            Thread oControllerThread = new Thread(new ThreadStart(Controller.GetInstance().SignalingMessageProcessor));
             oControllerThread.Start();
 
 
 
-            string sIP = "127.0.0.1";
+            //string sIP = "127.0.0.1";
+            string sIP = "192.168.8.22";
+
             int iRet = 0;
             P2PWrapper p2pWrapper = P2PWrapper.GetInstance();
-            iRet = p2pWrapper.InitializeLibraryR(100/*UserID*/);
+            iRet = p2pWrapper.InitializeLibraryR(200/*UserID*/);
             System.Console.WriteLine("MediaEngineLib==> InitializeLibrary, iRet = " + iRet);
 
             p2pWrapper.InitializeMediaConnectivityR(sIP /*Server IP*/, 6060 /* Server Signaling Port*/, 1);
-            p2pWrapper.ProcessCommandR("register");
 
-
-
-            //p2pWrapper.CreateSessionR(200/*FriendID*/, 1/*Audio*/, sIP, iFriendPort);
-            //p2pWrapper.CreateSessionR(200, 2/*Video*/, sIP, iFriendPort);
-            //p2pWrapper.SetRelayServerInformationR(200, 1, sIP, iFriendPort);
-            //p2pWrapper.SetRelayServerInformationR(200, 2, sIP, iFriendPort);
-
-            //iRet = p2pWrapper.StartAudioCallR(200);
-            //iRet = p2pWrapper.StartVideoCallR(200, 288  /*Height*/, 352/*Width*/);
-            //System.Diagnostics.Debug.WriteLine("MediaEngineLib==> StartVideoCall, iRet = " + iRet);
-            //p2pWrapper.SetLoggingStateR(true, 5);
             p2pWrapper.LinkWithConnectivityLib(null);
 
-            AudioSender oAlpha = new AudioSender();
-            oAlpha.AudioData = System.IO.File.ReadAllBytes(@"AudioSending(1).pcm");
+            //AudioSender oAlpha = new AudioSender();
+            //oAlpha.AudioData = System.IO.File.ReadAllBytes(@"AudioSending(1).pcm");
             //oAlpha.bStartSending = true;
 
-            Thread oThread = new Thread(new ThreadStart(oAlpha.StartSendingAudio));
-            oThread.Start();
-
+            //Thread oThread = new Thread(new ThreadStart(oAlpha.StartSendingAudio));
+            //oThread.Start();
         }
 
         private void Stop_Click_1(object sender, RoutedEventArgs e)
@@ -335,5 +336,66 @@ namespace VideoCallP2P
             p2pWrapper.CheckDeviceCapabilityR(100, 480, 640, 288, 352);
             
         }
+
+        private void Process_Click(object sender, RoutedEventArgs e)
+        {
+            //"register",
+            //"invite", 
+            //"publish",
+            //"view",
+            //"terminate-all"
+            Console.WriteLine("RajibTheKing--> Inside Process_Click Button");
+            string sOperation = "";
+            if(operationCmb.SelectedItem != null)
+            {
+                sOperation = operationCmb.SelectedItem.ToString();
+            }
+            Console.WriteLine("RajibTheKing--> Selected Operation:  " + sOperation);
+
+            if(sOperation == "")
+            {
+                MessageBox.Show("You Must Select an Operation");
+            }
+            else if(sOperation == "register")
+            {
+                P2PWrapper.GetInstance().ProcessCommandR(sOperation);
+            }
+            else if (sOperation == "invite" || sOperation == "publish" || sOperation == "view")
+            {
+                string sTargetUser = targetuserIDBox.Text;
+                if(sTargetUser == "")
+                {
+                    MessageBox.Show("You Must give input a Target User");
+                }
+                else
+                {
+                    Console.WriteLine("You are ready to start: "+sOperation);
+
+                    P2PWrapper.GetInstance().ProcessCommandR(sOperation + " " + sTargetUser);
+                    if (sOperation == "invite")
+                        Controller.GetInstance().InitializeAudioVideoEngineForCall(288, 352);
+                    else if (sOperation == "publish")
+                        Controller.GetInstance().InitializeAudioVideoEngineForLive(288, 352, true);
+                    else if (sOperation == "view")
+                        Controller.GetInstance().InitializeAudioVideoEngineForLive(288, 352, false);
+                    else
+                        Console.WriteLine("Something is wrong");
+
+                }
+            }
+            else if(sOperation == "terminate-all")
+            {
+                P2PWrapper.GetInstance().ProcessCommandR(sOperation);
+            }
+            else
+            {
+                MessageBox.Show("Something is wrong!!, You have selected : " + sOperation);
+            }
+
+            //MessageBox.Show("You have selected : " + sOperation);
+
+        }
+
+
     }
 }

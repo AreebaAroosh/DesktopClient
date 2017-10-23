@@ -333,8 +333,6 @@ namespace VideoCallP2P.lib2005
 
             if (counter == 1)
             {
-                //InitRingIDSDKLib();
-
                 Thread oThread = new Thread(new ThreadStart(RenderThread));
                 oThread.Start();
             }
@@ -367,6 +365,7 @@ namespace VideoCallP2P.lib2005
 
                 //YUV2RGBManaged2(frameForRender, CapturedFrame, width, height);
 
+                //Console.WriteLine("new Frames Available but, I don't want to render. Frame, H:W = " + P2PWrapper.iRenderHeight + ":" + P2PWrapper.iRenderWidth);
                 UpdateBuffer(CapturedFrame, P2PWrapper.iRenderHeight, P2PWrapper.iRenderWidth);
 
                 frameArrived = true;
@@ -375,29 +374,6 @@ namespace VideoCallP2P.lib2005
             }
         }
         
-        public void InitRingIDSDKLib()
-        {
-            //string sIP = "192.168.8.29";
-            string sIP = "38.127.68.60";
-            //string sIP = "60.68.127.38";
-            int iFriendPort = 60007;
-
-            int iRet = 0;
-            P2PWrapper p2pWrapper = P2PWrapper.GetInstance();
-
-            iRet = p2pWrapper.InitializeLibraryR(100/*UserID*/);
-            System.Console.WriteLine("MediaEngineLib==> InitializeLibrary, iRet = " +  iRet);
-            //p2pWrapper.CreateSessionR(200/*FriendID*/, 1/*Audio*/, sIP, iFriendPort);
-            //p2pWrapper.CreateSessionR(200, 2/*Video*/, sIP, iFriendPort);
-            //p2pWrapper.SetRelayServerInformationR(200, 1, sIP, iFriendPort);
-            //p2pWrapper.SetRelayServerInformationR(200, 2, sIP, iFriendPort);
-            iRet = p2pWrapper.StartAudioCallR(200);
-            iRet = p2pWrapper.StartVideoCallR(200, height/*Height*/, width/*Width*/);
-            System.Diagnostics.Debug.WriteLine("MediaEngineLib==> StartVideoCall, iRet = " + iRet);
-            //p2pWrapper.SetLoggingStateR(true, 5);
-            p2pWrapper.LinkWithConnectivityLib(null);
-
-        }
 
         #endregion
 
@@ -699,7 +675,7 @@ namespace VideoCallP2P.lib2005
         long lastFrame = 0;
         public int BufferCB(double sampleTime, IntPtr pBuffer, int bufferLen)
         {
-            Console.WriteLine("VampireEngg--> TimeDiff = " + (GetCurrentTimeStamp() - lastFrame));
+            Console.WriteLine("TheKing--> TimeDiff = " + (GetCurrentTimeStamp() - lastFrame) + ", RGB24.Length = " + bufferLen);
             lastFrame = GetCurrentTimeStamp();
             iFpsControl++;
             //if (iFpsControl % 2 == 1) return 0;

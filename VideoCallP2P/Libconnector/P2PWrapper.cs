@@ -28,10 +28,10 @@ namespace VideoCallP2P.Libconnector
 
 
         [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
-        public static extern int StartVideoCall(long username, int iHeight, int iWidth);
+        public static extern int StartVideoCall(long llFriendID, int nVideoHeight, int nVideoWidth, int nServiceType, int nEntityType, int packetSizeOfNetwork, int nNetworkType, bool bAudioOnlyLive);
 
         [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
-        public static extern int StartAudioCall(long username);
+        public static extern int StartAudioCall(long lFriendID, int nServiceType, int entityType, int nAudioSpeakerType);
 
         [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
         public static extern int InitializeLibrary(long username);
@@ -53,6 +53,11 @@ namespace VideoCallP2P.Libconnector
 
         [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
         public static extern int CheckDeviceCapability(long lFriendID, int iHeightHigh, int iWidthHigh, int iHeightLow, int iWidthLow);
+
+        [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
+        public static extern int StartCallInLive(long llFriendID, int iRole, int nCallInLiveType);
+
+        
 
         [DllImport(RingIDSDK_Path, CallingConvention = CallingConvention.Cdecl)]
         public static extern int InitializeMediaConnectivity(string sServerIP, int iPort, int iLogLevel);
@@ -153,7 +158,7 @@ namespace VideoCallP2P.Libconnector
 
         void FramesFromLibrary(long FriendId, int eventType, IntPtr frame, int iLen, int iHeight, int iWidth, int cameraOrient)
         {
-            Console.WriteLine("FramesFromLibrary: " + cameraOrient);
+            Console.WriteLine("FramesFromLibrary: iLen = " + iLen);
 
              //Console.WriteLine("TheKing--> Receive Diff = " + (GetCurrentTimeStamp() - lastFrameFromLibrary));
              //lastFrameFromLibrary = GetCurrentTimeStamp();
@@ -184,6 +189,8 @@ namespace VideoCallP2P.Libconnector
 
         void AudioFromLibrary(long FriendId, int eventType,  IntPtr data, int in_size)
         {
+            return;
+
             Marshal.Copy(data, managedArrayAudio, 0, in_size);
 
             byte[] newAudio = new byte[in_size * 2];
@@ -278,15 +285,18 @@ namespace VideoCallP2P.Libconnector
         }
 
 
-
-        public int StartAudioCallR(long lFriendId)
+        
+        public int StartAudioCallR(long lFriendID, int nServiceType, int entityType, int nAudioSpeakerType)
         {
-            return StartAudioCall(lFriendId);
+            return StartAudioCall(lFriendID, nServiceType, entityType, nAudioSpeakerType);
         }
 
-        public int StartVideoCallR(long lFriendID, int iHeight/*Height*/, int iWidth/*Width*/)
+        
+
+
+        public int StartVideoCallR(long llFriendID, int nVideoHeight, int nVideoWidth, int nServiceType, int nEntityType, int packetSizeOfNetwork, int nNetworkType, bool bAudioOnlyLive)
         {
-            return StartVideoCall(lFriendID, iHeight, iWidth); 
+            return StartVideoCall( llFriendID, nVideoHeight, nVideoWidth, nServiceType, nEntityType, packetSizeOfNetwork, nNetworkType, bAudioOnlyLive); 
         }
 
         public int SendVideoDataR(long lFriendID, byte[] in_data, int in_size, int orientation_type, int cameraOrient)
@@ -301,6 +311,11 @@ namespace VideoCallP2P.Libconnector
         public int StopAudioCallR(long lFriendID)
         {
             return StopAudioCall(lFriendID);
+        }
+
+        public int StartCallInLiveR(long llFriendID, int iRole, int nCallInLiveType)
+        {
+            return StartCallInLive(llFriendID, iRole, nCallInLiveType);
         }
 
         public int CheckDeviceCapabilityR(long lFriendID, int iHeightHigh, int iWidthHigh, int iHeightLow, int iWidthLow)
